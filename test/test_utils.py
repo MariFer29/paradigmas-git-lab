@@ -3,6 +3,7 @@ from src.utils import saludo, suma, es_par
 def saludo_test():
     assert saludo("UIA") == "Hola UIA!"
     assert saludo("Conflicto") == "Hola Conflicto!"
+    assert saludo("Compañeros") == "Hola Compañeros!"
 
 def suma_test():
     assert suma(1, 2) == 3
